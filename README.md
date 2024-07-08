@@ -34,26 +34,17 @@ sudo apt-get install valgrind
 
 
 ## Compilación
-Para compilar el proyecto, ejecute el siguiente comando:
+Para compilar el proyecto ejecutar el make:
 ```bash
-g++ -o prueba prueba.cpp
+make
 ```
 
 ## Ejecución
 Para ejecutar el proyecto de la forma más básica, ejecute el siguiente comando:
 ```bash
-./prueba   
-```
-Esto solo entregará los tiempos de búsqueda de cada solución.
-
-
-Si se requiere de todos los resultados, ejecute el siguiente comando:
-```bash
-./prueba || valgrind --tool=memcheck ./prueba || valgrind --tool=massif ./prueba   
-```
-Esto entregará los tiempos de búsqueda de cada solución y además la memoria utilizada por las 3 soluciones, si se requiere la memoria por solución, es necesario ir comentando secciones de código, esto por como funciona valgrind.
-
-
+./main <size> <e> <sd>
+ ```
+Esto entregará los tiempos de búsqueda de cada solución y además la memoria utilizada por las 3 soluciones.
 
 Donde:
 - **size**: Tamaño de los arreglos a generar.
