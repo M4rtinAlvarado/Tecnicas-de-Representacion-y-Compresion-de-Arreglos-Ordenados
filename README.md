@@ -23,18 +23,18 @@ Este proyecto tiene como objetivo la implementación y análisis de técnicas de
 
 ## Requisitos
 - **Compilador g++**
-- **Valgrind**
+- **make**
 
 
 ## Instalación
-Para instalar Valgrind en Ubuntu, ejecute el siguiente comando:
+Para instalar make en Ubuntu, ejecute el siguiente comando:
 ```bash
-sudo apt-get install valgrind
+sudo apt install make
 ```
 
 
 ## Compilación
-Para compilar el proyecto ejecutar el make:
+Para compilar el proyecto ejecutar el makefile en la terminal con el siguiente comando:
 ```bash
 make
 ```
