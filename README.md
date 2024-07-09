@@ -16,9 +16,14 @@ Este proyecto tiene como objetivo la implementación y análisis de técnicas de
 
 
 ## Estructura de Archivos
-- **prueba.cpp**: Contiene el código fuente del proyecto.
-- **funciones.h**: Contiene las funciones auxiliares que se utilizaran en la ejecución.
+- **makefile**: Contiene las reglas de compilación del proyecto.
+- **main.cpp**: Contiene el método main del proyecto.
+- **include/**: Contiene los archivos headers.
+- **generacion.h**: Contiene las funciones para la generación de arreglos.
 - **huffman.h**: Contiene las funciones para la codificación de Huffman.
+- **solucion1.h**: Contiene las funciones para la solución 1.
+- **solucion2.h**: Contiene las funciones para la solución 2.
+- **solucion3.h**: Contiene las funciones para la solución 3.
 
 
 ## Requisitos
@@ -40,7 +45,7 @@ make
 ```
 
 ## Ejecución
-Para ejecutar el proyecto de la forma más básica, ejecute el siguiente comando:
+Para ejecutar el proyecto, ejecute el siguiente comando:
 ```bash
 ./main <size> <e> <sd>
  ```
